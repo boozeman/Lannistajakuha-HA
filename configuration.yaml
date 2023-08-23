@@ -1,0 +1,7 @@
+command_line:
+  - sensor:
+      name: Lannistajakuha
+      unique_id: random_lannistajakuha
+      command: "python3 /config/lannistajakuha.py"
+      value_template: "{{ value }}"
+      scan_interval: 3600
